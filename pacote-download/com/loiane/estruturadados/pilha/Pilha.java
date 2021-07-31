@@ -8,6 +8,7 @@ import com.loiane.estruturadados.base.EstruturaEstatica;
  * @author irion-silva
  */
 public class Pilha<T> extends EstruturaEstatica<T> {
+    //Construtor
     public Pilha(){
         super();
     }
@@ -16,6 +17,7 @@ public class Pilha<T> extends EstruturaEstatica<T> {
         super(capacidade);
     }
     
+    //Métodos
     public void empilha(T elemento){
         super.adiciona(elemento);
     }
